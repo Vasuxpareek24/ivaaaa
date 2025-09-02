@@ -130,7 +130,7 @@ def on_message(ws, message):
                 service = "WhatsApp" if "whatsapp" in raw_msg.lower() else "Unknown"
 
                 telegram_msg = (
-    "<blockquote>🔔 <b><u>OTP Alert</u></b></blockquote>\n"
+    f"<blockquote>{country}🔔 <b><u>0TP Alert</u></b></blockquote>\n"
     "━━━━━━━━━━━━━━━━━━━━\n"
     f"<blockquote>🌍 <b>Country:</b> <code>{country}</code></blockquote>\n"
     f"<blockquote>🔑 <b>OTP:</b> <code>{otp}</code></blockquote>\n"
