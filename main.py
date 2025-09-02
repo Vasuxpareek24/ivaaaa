@@ -19,7 +19,7 @@ WS_URL = os.environ.get("WS_URL") or "wss://ivasms.com:2087/socket.io/?token=eyJ
 AUTH_MESSAGE = os.environ.get("AUTH_MESSAGE") 
 PING_INTERVAL = int(os.environ.get("PING_INTERVAL", 15))  # default 25 sec
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN") or 
+BOT_TOKEN = os.environ.get("BOT_TOKEN") 
 GROUP_ID = os.environ.get("GROUP_ID") or "-1002311125652"
 CHANNEL_URL = os.environ.get("CHANNEL_URL") or "https://t.me/DDXOTP"
 DEV_URL = os.environ.get("DEV_URL") or "https://t.me/vxxwo"
